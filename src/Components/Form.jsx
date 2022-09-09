@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import List from "./List";
 
 function Form(){
-    let [list, setList] = useState(["A Item"]);
+    let [list, setList] = useState(["Buy Apples", "Dump Garbage", "Clean Room"]);
     let [item, setItem] = useState("");
 
     function handleChange(event){
